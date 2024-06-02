@@ -8,7 +8,6 @@ EasyTask is a task management application built with Angular 18, designed to hel
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
 
 ## Features
 
@@ -49,13 +48,3 @@ EasyTask is a task management application built with Angular 18, designed to hel
 3. **Persistent Storage:**
    - Tasks are automatically saved to the browser's local storage.
    - Tasks will persist even if the page is reloaded or the browser is closed and reopened.
-
-## Contributing
-
-Contributions are welcome! Please fork the repository and create a pull request with your changes.
-
-1. **Fork the repository**
-2. **Create your feature branch** (`git checkout -b feature/your-feature-name`)
-3. **Commit your changes** (`git commit -m 'Add some feature'`)
-4. **Push to the branch** (`git push origin feature/your-feature-name`)
-5. **Create a new Pull Request**
