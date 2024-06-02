@@ -1,27 +1,61 @@
-# Essentials
+# EasyTask
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.2.
+EasyTask is a task management application built with Angular 18, designed to help companies manage tasks for their employees. The application features a header, a sidebar with a list of employees, and a task display area where tasks can be added, viewed, and marked as completed. All tasks are stored in the browser's local storage, ensuring persistence even after page reloads.
 
-## Development server
+![EasyTask screenshot](/src/assets/readme/easy-task-screenshot.png)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Table of Contents
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
 
-## Code scaffolding
+## Features
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Employee Management**: View a list of 6 employees in the sidebar.
+- **Task Management**: Add new tasks and mark existing tasks as completed for each employee.
+- **Persistent Storage**: Tasks are stored in the browser's local storage, so they persist even if the page is reloaded.
 
-## Build
+## Installation
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/vivianehw/EasyTask.git
+   cd easytask
+   ```
 
-## Running unit tests
+2. **Install dependencies:**
+   ```sh
+   npm install
+   ```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+3. **Run the application:**
+   ```sh
+   ng serve
+   ```
+   The application will be available at `http://localhost:4200`.
 
-## Running end-to-end tests
+## Usage
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+1. **Viewing Employees:**
+   - The sidebar displays a list of 6 employees.
+   - Click on an employee to view their tasks.
 
-## Further help
+2. **Managing Tasks:**
+   - The task area on the right will show the tasks for the selected employee.
+   - Add a new task by typing in the input field and clicking the "Add Task" button.
+   - Mark a task as completed by clicking the checkbox next to the task.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+3. **Persistent Storage:**
+   - Tasks are automatically saved to the browser's local storage.
+   - Tasks will persist even if the page is reloaded or the browser is closed and reopened.
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and create a pull request with your changes.
+
+1. **Fork the repository**
+2. **Create your feature branch** (`git checkout -b feature/your-feature-name`)
+3. **Commit your changes** (`git commit -m 'Add some feature'`)
+4. **Push to the branch** (`git push origin feature/your-feature-name`)
+5. **Create a new Pull Request**
